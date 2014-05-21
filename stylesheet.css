@@ -5,6 +5,13 @@ body{
 }
 
 
+#bluebackground{
+	background-color: blue;
+	height: 53%;
+	width: 49%;
+
+}
+
 
 #stripe1{
 	width: 100%;
