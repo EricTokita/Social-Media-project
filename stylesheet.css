@@ -1,0 +1,144 @@
+body{
+	font-family: cursive;
+	text-align: center;
+
+}
+
+
+
+#stripe1{
+	width: 100%;
+	height: 7.7%;
+	background-color: red;'
+	color: black;
+	font-size: 120%;
+
+}
+#stripe2{
+	width: 100%;
+	height: 7.7%;
+	background-color: white;
+}
+#stripe3{
+	width: 100%;
+	height: 7.7%;
+	background-color: red;
+}
+#stripe4{
+	width: 100%;
+	height: 7.7%;
+	background-color: white;
+}
+#stripe5{
+	width: 100%;
+	height: 7.7%;
+	background-color: red;
+}
+#stripe6{
+	width: 100%;
+	height: 7.7%;
+	background-color: white;
+}
+#stripe7{
+	width: 100%;
+	height: 7.7%;
+	background-color: red;
+}
+#stripe8{
+	width: 100%;
+	height: 7.7%;
+	background-color: white;
+}
+#stripe9{
+	width: 100%;
+	height: 7.7%;
+	background-color: red;
+}
+#stripe10{
+	width: 100%;
+	height: 7.7%;
+	background-color: white;
+}
+#stripe11{
+	width: 100%;
+	height: 7.7%;
+	background-color: red;
+}
+#stripe12{
+	width: 100%;
+	height: 7.7%;
+	background-color: white;
+}
+#stripe13{
+	width: 100%;
+	height: 7.7%;
+	background-color: red;
+}
+
+
+
+#five-star {
+   margin: 50px 0;
+   position: relative;
+   display: block;
+   color: white;
+   width: 0px;
+   height: 0px;
+   border-right:  100px solid transparent;
+   border-bottom: 70px  solid white;
+   border-left:   100px solid transparent;
+   -moz-transform:    rotate(35deg);
+   -webkit-transform: rotate(35deg);
+   -ms-transform:     rotate(35deg);
+   -o-transform:      rotate(35deg);
+}
+#five-star:before {
+   border-bottom: 80px solid white;
+   border-left: 30px solid transparent;
+   border-right: 30px solid transparent;
+   position: relative;
+   height: 0;
+   width: 0;
+   top: 0px;
+   left: -65px;
+   display: block;
+   content: '';
+   -webkit-transform: rotate(-35deg);
+   -moz-transform:    rotate(-35deg);
+   -ms-transform:     rotate(-35deg);
+   -o-transform:      rotate(-35deg);
+
+}
+#five-star:after {
+   position: relative;
+   display: block;
+   color: white;
+   top: 0px;
+   left: -105px;
+   width: 0px;
+   height: 0px;
+   border-right: 100px solid transparent;
+   border-bottom: 70px solid white;
+   border-left: 100px solid transparent;
+   -webkit-transform: rotate(-70deg);
+   -moz-transform:    rotate(-70deg);
+   -ms-transform:     rotate(-70deg);
+   -o-transform:      rotate(-70deg);
+   content: '';
+}
+.stars{
+	padding: 5px;
+	text-align: right;
+}
+
+span {
+   position: absolute;
+    top: 100px;
+}
+
+
+
+
+
+
+
