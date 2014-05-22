@@ -1,90 +1,50 @@
 body{
 	font-family: cursive;
 	text-align: center;
+	margin: 0;
+	padding: 0;
 
 }
 
 
 #bluebackground{
 	background-color: blue;
-	height: 53%;
+	height: 54%;
 	width: 49%;
-
+	z-index: 1;
+	position: absolute;
+	top:-50;
+	left:0;
 }
 
+.flag {
+	height: 655px;
+	position: relative;
+}
 
-#stripe1{
+.stripe {
 	width: 100%;
 	height: 7.7%;
-	background-color: red;'
-	color: black;
-	font-size: 120%;
+}
 
-}
-#stripe2{
-	width: 100%;
-	height: 7.7%;
-	background-color: white;
-}
-#stripe3{
-	width: 100%;
-	height: 7.7%;
-	background-color: red;
-}
-#stripe4{
-	width: 100%;
-	height: 7.7%;
-	background-color: white;
-}
-#stripe5{
-	width: 100%;
-	height: 7.7%;
-	background-color: red;
-}
-#stripe6{
-	width: 100%;
-	height: 7.7%;
-	background-color: white;
-}
-#stripe7{
-	width: 100%;
-	height: 7.7%;
-	background-color: red;
-}
-#stripe8{
-	width: 100%;
-	height: 7.7%;
-	background-color: white;
-}
-#stripe9{
-	width: 100%;
-	height: 7.7%;
-	background-color: red;
-}
-#stripe10{
-	width: 100%;
-	height: 7.7%;
-	background-color: white;
-}
-#stripe11{
-	width: 100%;
-	height: 7.7%;
-	background-color: red;
-}
-#stripe12{
-	width: 100%;
-	height: 7.7%;
-	background-color: white;
-}
-#stripe13{
-	width: 100%;
-	height: 7.7%;
+.red {
 	background-color: red;
 }
 
+.stripes {
+	position: absolute;
+	top: -50;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+}
 
 
-#five-star {
+
+
+
+.stars{
    margin: 50px 0;
    position: relative;
    display: block;
@@ -98,15 +58,16 @@ body{
    -webkit-transform: rotate(35deg);
    -ms-transform:     rotate(35deg);
    -o-transform:      rotate(35deg);
+   z-index: 2;
 }
-#five-star:before {
+.stars:before {
    border-bottom: 80px solid white;
    border-left: 30px solid transparent;
    border-right: 30px solid transparent;
-   position: relative;
+   position: absolute;
    height: 0;
    width: 0;
-   top: 0px;
+   top: -45px;
    left: -65px;
    display: block;
    content: '';
@@ -114,13 +75,14 @@ body{
    -moz-transform:    rotate(-35deg);
    -ms-transform:     rotate(-35deg);
    -o-transform:      rotate(-35deg);
+   z-index: 2;
 
 }
-#five-star:after {
-   position: relative;
+.stars:after {
+   position: absolute;
    display: block;
    color: white;
-   top: 0px;
+   top: 3px;
    left: -105px;
    width: 0px;
    height: 0px;
@@ -131,17 +93,40 @@ body{
    -moz-transform:    rotate(-70deg);
    -ms-transform:     rotate(-70deg);
    -o-transform:      rotate(-70deg);
+   z-index: 2;
    content: '';
 }
 .stars{
 	padding: 5px;
 	text-align: right;
+	position: relative;
+}
+.infoSection{
+	border: 1px dashed blue;
 }
 
-span {
-   position: absolute;
-    top: 100px;
+.infoSection > div {
+	width: 30%;
+	margin: 0 1%;
+	float: left;
 }
+
+#About{
+	text-align: left;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+#Interests{
+	text-align: center;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+#Contact{
+	text-align: right;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
 
 
 
